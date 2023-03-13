@@ -87,7 +87,6 @@ class CustomImage extends Image {
 
 export default function Form() {
 
-
     const [uploadedImages, setUploadedImages] = React.useState<CustomImage[]>([]);
     console.log(uploadedImages);
 
